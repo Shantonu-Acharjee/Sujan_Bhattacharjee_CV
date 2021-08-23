@@ -12,7 +12,6 @@ Fonts End
 
 
 
-
 /*--------------------
 Pre-Set Start
 --------------------*/
@@ -25,7 +24,7 @@ Pre-Set Start
 
 body{
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color: var(--dark);
+    background-color: #fff;
     --webkit-font-smoothing: antialiased;
     padding-bottom: 4rem;
     
@@ -44,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .container{
-    max-width: 1140px;
+    width: 95%;
     margin: 0 auto;
 }
 
