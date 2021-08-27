@@ -7,7 +7,9 @@ Fonts Start
 Fonts End
 --------------------*/
 
-
+.right p span{
+    font-size: 17px;
+}
 
 
 
@@ -50,7 +52,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .section_heading{
-    font-size: 16px;
+    font-size: 40px;
     font-weight: 500;
     color: var(--pure);
     margin-bottom: 3rem;
@@ -64,7 +66,7 @@ h1,h2,h3,h4,h5,h6{
     height: 3px;
     width: 200px;
     position: absolute;
-    top: 28px;
+    top: 40px;
     left: 0;
     border: 1.5px dotted var(--danger);
 }
@@ -93,22 +95,22 @@ Color Start
 --------------------*/
 
 :root{
-    --primary : #1a253f;
-    --dark : #151A33;
-    --secondary : #2b55cc;
-    --info : #4d79f6;
-    --ternary : #848db3;
-    --pure : #eff2f9;
-    --fade : #7081b9;
-    --mild : #8997bd;
-    --footer : #212A4A;
-    --black : #060b1b;
-    --twitter : #4ac7ec;
-    --dribbble : #ff5da0;
-    --success : #12cab8;
-    --danger : #f1646c;
-    --dark-blue : #28365f;
-    --youtube : #FF0000;
+    --primary : #ffffff;
+    --dark : #000;
+    --secondary : #000;
+    --info : #000;
+    --ternary : #000;
+    --pure : #000;
+    --fade : #000;
+    --mild : #000;
+    --footer : #000;
+    --black : #000;
+    --twitter : #000;
+    --dribbble : #000;
+    --success : #000;
+    --danger : #000;
+    --dark-blue : #000;
+    --youtube : #000;
     --instagram : rgba(255, 81, 0, 0.877);
     --linkedin : #0077b5;
     --github :  #3cdf13;
@@ -131,7 +133,7 @@ NavBar Start
 --------------------*/
 nav{
     background-color: var(--primary);
-    padding: 1.6rem 0;
+    padding: 1rem 0;
 }
 
 nav .inner{
@@ -145,9 +147,10 @@ nav .inner{
 nav .inner .logo{
     text-transform: uppercase;
     color: var(--pure);
-    font-size: 18px;
+    font-size: 50px;
     letter-spacing: 1px;
     font-weight: 500;
+    margin: 0 auto;
 }
 
 
@@ -172,7 +175,7 @@ NavBar End
 Profile Start
 --------------------*/
 section.profile{
-    background-color: var(--black);
+    background-color: rgba(61, 61, 61, 0.041);
     display: flex;
     align-items: center;
     padding: 3rem;
@@ -199,7 +202,7 @@ section.profile .right{
 
 section.profile .left h2{
     color: var(--fade);
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -209,7 +212,7 @@ section.profile .left h2{
 
 section.profile .left p{
     color: var(--mild);
-    font-size: 14px;
+    font-size: 20px;
 }
 
 
@@ -279,7 +282,7 @@ section.profile .right ul.contact li{
 
 section.profile .right ul.contact li a{
     color: var(--ternary);
-    font-size: 14px;
+    font-size: 20px;
     transition: all .3s ease;
 }
 
@@ -383,7 +386,7 @@ section.about .content{
 
 section.about .content h2{
     color: var(--info);
-    font-size: 18px;
+    font-size: 30px;
     line-height: 22px;
     font-weight: 700;
     margin-bottom: 1.6rem;
@@ -393,7 +396,7 @@ section.about .content h2{
 
 section.about .content p{
     color: var(--ternary);
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.6;
     letter-spacing: 0.1px;
     margin-bottom: 1rem;
@@ -493,13 +496,13 @@ section.skills .content .left .heading , section.skills .content .right .heading
 
 section.skills .content .left .heading i , section.skills .content .right .heading i{
     color: var(--fade);
-    font-size: 52px;
+    font-size: 100px;
 }
 
 
 
 section.skills .content .left .heading h5, section.skills .content .right .heading h5{
-    font-size: 16px;
+    font-size: 30px;
     margin-top: 0.5rem;
     color: var(--mild);
 }
@@ -509,7 +512,7 @@ section.skills .content .left .heading h5, section.skills .content .right .headi
 
 
 section.skills .content .left p , section.skills .content .right p{
-    font-size: 14px;
+    font-size: 20px;
     color: var(--ternary);
     line-height: 1.7;
 }
@@ -558,7 +561,7 @@ section.skills .skills_wrapper{
 
 section.skills .skills_wrapper .skill_box h4{
     color: var(--ternary);
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 1rem;
@@ -571,13 +574,13 @@ section.skills .skills_wrapper .skill_box{
 
 
 section.skills .skills_wrapper .skill_box .progress_wrap{
-    background-color: #20294a;
-    height: 6px;
+    background-color: red;
+    height: 10px;
     width: 100%;
-    border: 2px solid #1a253f;
-    box-shadow: 0 0 1px 0.25px #4d79f6;
+    border: 2px solid red;
+    box-shadow: 0 0 1px 0.25px red;
     border-radius: 10px;
-    border: 2px solid #1a253f;
+    border: 2px solid red;
 }
 
 
@@ -585,7 +588,7 @@ section.skills .skills_wrapper .skill_box .progress_wrap{
 section.skills .skills_wrapper .skill_box .progress_wrap .progress_bar{
     display: block;
     height: 100%;
-    background-color: var(--info);
+    background-color: greenyellow;
     width: 20%;
     position: relative;
     transition: all 2s ease-in-out;
@@ -600,12 +603,14 @@ section.skills .skills_wrapper .skill_box .progress_wrap .progress_bar .tooltip{
     top: -30px;
     margin-bottom: 10px;
     color: var(--ternary);
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 /*--------------------
 Skill End
 --------------------*/
+
+
 
 
 
@@ -833,18 +838,23 @@ Brand Patner End
 /*-------------------- 
 Contact Me Start
 --------------------*/
+
+.contact .section_heading{
+    font-size: 30px;
+}
+
 section.contact .wrapper{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 40px;
-    margin-top: 40px;
+    grid-gap: 30px;
+    margin-top: 30px;
     align-items: center;
+    
 }
 
 section.contact .wrapper .left > div a{
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -854,13 +864,13 @@ section.contact .wrapper .left > div div:nth-child(1){
 }
 
 section.contact .wrapper .left i{
-    font-size: 30px;
+    font-size: 25px;
     color: var(--info);
 }
 
 
 section.contact .wrapper .left h4{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     margin-bottom: 5px;
 }
@@ -871,7 +881,7 @@ section.contact .wrapper .left a{
 
 section.contact .wrapper .left h4 + span{
     font-weight: 100;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
